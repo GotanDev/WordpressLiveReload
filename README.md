@@ -7,7 +7,7 @@ Wordpress Plugin for enabling livereload  of your browser on any theme change wh
 The plugin will check every second that your active Wordpress theme has changed. 
 If it has changed, it will reload your browser.  
 
-Really usefull for theme development on local workstation.
+Really useful for theme development on local workstation.
 
 
 
