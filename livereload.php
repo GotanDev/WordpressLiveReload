@@ -6,7 +6,8 @@
  * Version: 0.1
  * Author: Gotan
  * Author URI: https://www.gotan.io/
- * License: MIT
+ * License: GPL2
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  **/
 const LIVERELOAD_IP_OPTION_NAME = "livereload_allowed_ips";
 
@@ -75,10 +76,10 @@ add_action('admin_menu', 'theme_livereload_setting_page');
 
 
 function theme_livereload_html_form() { ?>
-    <div class="wrap">
+    <div class="wrap" style="margin: 15px 0">
 
-        <a style="display:block;float:right;" href="https://github.com/GotanDev/WordpressLiveReload" target="blank"><img src="https://cdn3.iconfinder.com/data/icons/sociocons/128/github-sociocon.png" style="height: 64px;" alt="GitHub Project"/></a>
-        <h2><strong>Theme Live Reload</strong> - Settings</h2>
+        <a style="display:block;float:right;margin-right: 15px;" href="https://github.com/GotanDev/WordpressLiveReload" target="blank"><img src="https://cdn3.iconfinder.com/data/icons/sociocons/128/github-sociocon.png" style="height: 64px;" alt="GitHub Project"/></a>
+        <h2 style="font-size: 18pt;"><strong>Theme Live Reload</strong> - Settings</h2>
 
         <p style="border-left:3px solid #AAA;padding: 5px 10px">
             Live Reload plugin allows you to auto reload your website when your active theme is modified.<br />
